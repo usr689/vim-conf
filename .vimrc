@@ -7,6 +7,7 @@ set wildmenu
 set laststatus=2
 set wrap
 set autochdir
+set encoding=UTF-8
 
 syntax enable
 color blue
@@ -14,7 +15,7 @@ color blue
 "packadd! dracula
 "colorscheme dracula
 
-autocmd VimEnter * NERDTree
+"autocmd VimEnter * NERDTree
 let NERDTreeShowHidden=1
 
 nnoremap <C-c> :NERDTreeToggle<CR>
